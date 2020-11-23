@@ -1,1 +1,1 @@
-# JavaScript-Work
+# JavaScript Work
