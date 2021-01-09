@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Inter|Noto+Sans&display=swap");
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.jumbotron h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0;
+    color: #fff;
+}
+
+.jumbotron h3 {
+    margin: 0 0 20px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.index-background {
+    background-image: url("https://dmxezw.sn.files.1drv.com/y4m6s0u2l6phzfizpsfyznerBDxt0w2Ggb_RzukQrmpoRIkwE9SzrKaVFyMe2r2vbGQ6P3m765oG1cLxprPnyy4egP7bqfmdxJv_1ZpvLfeHWXYE81ggeWFZ-0qg50UEEbDeqbPS8ltPae6425jpu57LDKYmDJ2DNEwfZbbP6T5CZewKl0s0CXsfEAsSHss1_LXw4DyLy14vgq_N_gVBOghbw?width=6240&height=4160&cropmode=none");
+}
+
+section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+}
+
+.col-md-6 {
+    margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    background-color: #ffffff;
+}
+
+.btn.btn-primary: hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+}
+
+.btn-secondary {
+    background-color: #2a70e0;
+    color: #ffffff;
+    margin: 0 0 30px;
+}
+
+.portrait {
+    width: 350px;
+    height: 300px;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+footer {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul {
+    list-style: none;
+}
